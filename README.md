@@ -33,11 +33,6 @@ It uses **machine learning** and **real-time analytics** to detect and prevent f
 - 📈 **Real-Time Visualizations** — Fraud probability, risk maps  
 - 🔐 **Smart Risk Scoring** — AI-based probability per transaction  
 
----
-
-## 🖥️ Screenshots
-
-## 🖥️ Screenshots
 
 ### 🔐 Login Page
 ![Login](https://github.com/cipher20000/AegisPay/blob/2d1f85b7547114ae0dee4df9801b008cdb826764/login.png?raw=true)
