@@ -1,6 +1,3 @@
-<div align="center">
-
-<img src="./assets/logo.png" alt="AegisPay Logo" width="90"/>
 
 # 🛡️ AegisPay  
 ### AI-Assisted Full-Stack Fraud Detection Dashboard  
