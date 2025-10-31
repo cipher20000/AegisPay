@@ -1,56 +1,76 @@
-<h1 align="center">🛡️ AegisPay</h1>
-<p align="center">
-  <b>AI-Assisted Full-Stack Fraud Detection Dashboard</b><br/>
-  (React + FastAPI + PostgreSQL + scikit-learn)
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-%5E18-blue?logo=react" />
-  <img src="https://img.shields.io/badge/FastAPI-Python-yellow?logo=fastapi" />
-  <img src="https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-scikit--learn-orange?logo=python" />
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey" />
-</p>
+<img src="./assets/logo.png" alt="AegisPay Logo" width="90"/>
+
+# 🛡️ AegisPay  
+### AI-Assisted Full-Stack Fraud Detection Dashboard  
+*(React + FastAPI + PostgreSQL + scikit-learn)*  
+
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-success?logo=fastapi)
+![Python](https://img.shields.io/badge/Python-ML-blue?logo=python)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-lightblue?logo=postgresql)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+</div>
 
 ---
 
 ## 🧠 Overview
+**AegisPay** is an AI-powered fraud detection dashboard for fintech and banking platforms.  
+It uses **machine learning** and **real-time analytics** to detect and prevent fraudulent transactions with transparency and trust.
 
-**AegisPay** is an **AI-powered Fraud Detection Dashboard** built for **fintech and banking platforms**.  
-It integrates **machine learning**, **real-time analytics**, and **interactive visualization** to detect and prevent fraudulent transactions with speed and accuracy.
-
-> AegisPay = *AI + Trust + Transparency in Payments.*
-
----
-
-## 🚀 Key Features
-
-- ⚙️ **AI Fraud Detection Engine** — Uses ML models (Logistic Regression, Random Forest, XGBoost) to detect anomalies in transactions.  
-- 📊 **Interactive Dashboard** — Built with React + Tailwind for clean, modern UI.  
-- 💾 **PostgreSQL Database** — Stores transaction history, user risk levels, and anomaly logs.  
-- 🔍 **FastAPI Backend** — Python-powered API for model inference and data processing.  
-- 📈 **Real-Time Visualizations** — Display live metrics like fraud probability, transaction density, and geographic risk maps.  
-- 🔐 **Smart Risk Scoring** — Assigns AI-based “fraud probability” to every transaction.  
-- ☁️ **Modular Full-Stack Design** — Easy to scale, deploy, and retrain models.
+> 💬 *AI + Trust + Transparency in Payments.*
 
 ---
 
-## 🧰 Tech Stack
+## 🚀 Features
+- ⚙️ **AI Fraud Detection Engine** — Logistic Regression, Random Forest, XGBoost  
+- 📊 **Interactive Dashboard** — React + Tailwind UI  
+- 💾 **PostgreSQL Database** — Store transactions & risk logs  
+- 🔍 **FastAPI Backend** — ML inference and analytics  
+- 📈 **Real-Time Visualizations** — Fraud probability, risk maps  
+- 🔐 **Smart Risk Scoring** — AI-based probability per transaction  
 
-### 🖥️ Frontend
-- **React.js + TypeScript**
-- **Tailwind CSS** for styling
-- **Recharts / Chart.js** for visualization
-- **Axios** for API communication
+---
 
-### ⚙️ Backend
-- **FastAPI (Python)** for ML inference
-- **scikit-learn** + **pandas** + **NumPy**
-- **Joblib** for model persistence
-- **PostgreSQL** (via SQLAlchemy)
+## 🖥️ Screenshots
 
-### 🤖 Machine Learning
-- Models trained on financial datasets (fraud/non-fraud)
-- Uses **Feature Engineering**, **Anomaly Detection**, and **Classification**
-- Metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+## 🖥️ Screenshots
 
+### 🔐 Login Page
+![Login](https://github.com/cipher20000/AegisPay/blob/2d1f85b7547114ae0dee4df9801b008cdb826764/login.png?raw=true)
+
+### 📊 Dashboard
+![Dashboard](https://github.com/cipher20000/AegisPay/blob/2d1f85b7547114ae0dee4df9801b008cdb826764/dashboard.png?raw=true)
+
+
+*(Save these images in an `/assets` folder inside the repo.)*
+
+---
+
+## ⚙️ Tech Stack
+**Frontend:** React.js, TypeScript, TailwindCSS, Recharts  
+**Backend:** FastAPI, scikit-learn, pandas, NumPy  
+**Database:** PostgreSQL (via SQLAlchemy)  
+**Deployment:** Docker + CI/CD ready  
+
+---
+
+## 🧩 Quick Start
+
+```bash
+# Clone repo
+git clone https://github.com/cipher20000/AegisPay.git
+cd AegisPay
+
+# Backend setup
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+# Frontend setup
+cd frontend
+npm install
+npm run dev
